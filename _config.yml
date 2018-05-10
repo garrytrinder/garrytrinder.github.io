@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: false
+
+# Setup
+title:               Garry Trinder
+tagline:             'This is a tagline, I should think of something "snappy" to put here...'
+description:         'This is a description for the blog, I should think of something "descriptive" to put here...'
+url:                 https://github.com/garrytrinder.github.io
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Garry Trinder
+  url:               https://twitter.com/garrytrinder
+  email:             garry.trinder@live.com
+
+# Custom vars
+version:             1.0.0
+
+plugins:             [jekyll-paginate]
