@@ -3,4 +3,8 @@ layout: page
 title: About
 ---
 
-Well it would appear that I don't have much to say for myself, let me have a think and get back to you on that :)
+I am a Microsoft Certified Professional specialising in Microsoft SharePoint and Office 365, based in Barnsley, UK.
+
+Currently working for [CPS](https://www.cps.co.uk "Corporate Project Solutions"), a multi award winning Microsoft Gold Partner based in Marlow, Buckinghamshire, as an Solutions Architect, specialising in Integration and Automation.
+
+Co-organiser of the bi-monthly [PowerPlatform User Group](https://www.meetup.com/PowerPlatform-User-Group-Leeds/) held in Leeds.

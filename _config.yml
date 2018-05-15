@@ -1,24 +1,41 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink: pretty
 relative_permalinks: false
 
 # Setup
-title:               Garry Trinder
-tagline:             'This is a tagline, I should think of something "snappy" to put here...'
-description:         'This is a description for the blog, I should think of something "descriptive" to put here...'
-url:                 https://github.com/garrytrinder.github.io
-baseurl:             ''
-paginate:            5
+title: Garry Trinder
+tagline: Microsoft Office Development MVP
+description: 
+url: https://garrytrinder.github.io
+baseurl: ""
+paginate: 5
+lang: en_GB
 
 # About/contact
 author:
-  name:              Garry Trinder
-  url:               https://twitter.com/garrytrinder
-  email:             garry.trinder@live.com
+  name: Garry Trinder
+  url: https://twitter.com/garrytrinder
+  email: garry.trinder@live.com
+  twitter: https://twitter.com/garrytrinder
+  github: https://github.com/garrytrinder
+  linkedin: https://www.linkedin.com/in/gtrinder
+  mvp: https://mvp.microsoft.com/en-us/PublicProfile/5003609?fullName=Garry%20Trinder
+
+# Twitter
+twitter:
+  username: garrytrinder
+  card: summary
+
+# Verification
+webmaster_verifications:
+  google: 2Ta-fURWtx-kxtVGw_FQT1AbMbsPV7LdDNXlKgTe7Ko
 
 # Custom vars
-version:             1.0.0
-
-plugins:             [jekyll-paginate]
+version: 1.0.0
+google_analytics: UA-119232328-1
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
