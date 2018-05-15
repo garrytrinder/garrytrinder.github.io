@@ -6,7 +6,7 @@ relative_permalinks: false
 
 # Setup
 title:               'GARRY TRINDER'
-tagline:             'On a journey in the Microsoft Cloud...'
+tagline:             'On a journey in the Microsoft Cloud ...'
 description:         'Collections of things that I learn whilst using the Microsoft Cloud whilst hepling build solutions as an Office 365 Solutions Architect'
 url:                 https://github.com/garrytrinder.github.io
 baseurl:             ''
@@ -20,5 +20,5 @@ author:
 
 # Custom vars
 version:             1.0.0
-
+google_analytics:    UA-119232328-1
 plugins:             [jekyll-paginate]
