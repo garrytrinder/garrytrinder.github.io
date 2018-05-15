@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: false
 
 # Setup
-title:               Garry Trinder
-tagline:             'This is a tagline, I should think of something "snappy" to put here...'
-description:         'This is a description for the blog, I should think of something "descriptive" to put here...'
+title:               'GARRY TRINDER'
+tagline:             'On a journey in the Microsoft Cloud...'
+description:         'Collections of things that I learn whilst using the Microsoft Cloud whilst hepling build solutions as an Office 365 Solutions Architect'
 url:                 https://github.com/garrytrinder.github.io
 baseurl:             ''
 paginate:            5
