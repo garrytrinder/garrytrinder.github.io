@@ -3,4 +3,6 @@ layout: page
 title: About
 ---
 
-Well it would appear that I don't have much to say for myself, let me have a think and get back to you on that :)
+I am Microsoft Certified Professional specialising in Microsoft SharePoint and Office 365, based in Barnsley, UK.
+
+Currently working for [ID](https://www.id-live.com/ "Intelligent Decisioning Ltd"), a Microsoft SharePoint Gold Partner based in Nottingham, as an Office 365 Solutions Architect.
