@@ -17,11 +17,14 @@
     <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
     {% endif %} {% endif %} {% endfor %}
     <span class="sidebar-nav-item sidebar-social">
-      <a href="{{ site.author.github }}" title="GitHub" target="_blank">
-        <i class="fab fa-github fa-2x"></i>   
-      </a>
       <a href="{{ site.author.twitter }}" title="Twitter" target="_blank">
         <i class="fab fa-twitter fa-2x"></i>
+      </a>
+      <a href="{{ site.author.linkedin }}" title="LinkedIn" target="_blank">
+        <i class="fab fa-linkedin-in fa-2x"></i>
+      </a>
+      <a href="{{ site.author.github }}" title="GitHub" target="_blank">
+        <i class="fab fa-github fa-2x"></i>
       </a>
       <a href="{{ site.author.instagram }}" title="Instagram" target="_blank">
         <i class="fab fa-instagram fa-2x"></i>
