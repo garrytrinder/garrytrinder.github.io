@@ -9,3 +9,14 @@ h6,
 .pagination {
   font-family: "Roboto", serif;
 }
+
+.sidebar-social a:hover,
+.sidebar-social a:focus {
+  text-decoration: none;
+}
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
