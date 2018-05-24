@@ -10,13 +10,16 @@ h6,
   font-family: "Roboto", serif;
 }
 
+.sidebar-social a {
+  margin-right: 1rem;
+}
+
 .sidebar-social a:hover,
 .sidebar-social a:focus {
   text-decoration: none;
 }
 
-.center-image
-{
-    margin: 0 auto;
-    display: block;
+.center-image {
+  margin: 0 auto;
+  display: block;
 }
