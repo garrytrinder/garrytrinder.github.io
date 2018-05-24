@@ -3,11 +3,26 @@ layout: default
 ---
 
 <div class="post">
-  <h1 class="post-title">{{ page.title }}</h1> 
+  <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
+  <!--<span class="post-category"><span>Category</span> {{ page.category }}</span>
+  <span class="post-tags">
+    <span>Tags</span>
+    {% assign tags = page.tags | sort %} 
+    {% for tag in tags %}
+    <span class="post-tag">
+      {{ tag }}
+    </span>
+    {% endfor %}
+  </span>-->
+  <div class="message">
+    I hope that you found this post useful, if you have any questions or would like to discuss further feel free to contact me on <a href="{{site.author.twitter}}" target="_blank">Twitter</a>
+  </div>
 </div>
 
+
+<!--
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
@@ -23,3 +38,4 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+-->
