@@ -7,7 +7,7 @@ permalink:      /:year/:month/:title
 published:      true
 ---
 
-A good friend sent me a link to a video one evening, the video just so happened to be one of the most watched TED Talk of all time racking up a cool 38M views and it was a revelation.
+A good friend sent me a link to a video one evening, the video just so happened to be one of the most watched TED Talks of all time, currently racking up a cool 38M views and it was a revelation.
 
 <div style="max-width:854px;margin-bottom:1rem;">
 <div style="position:relative;height:0;padding-bottom:56.25%">
