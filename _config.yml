@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: false
 
 # Setup
-title:               'GARRY TRINDER'
-tagline:             'On a journey in the Microsoft Cloud ...'
-description:         'Collections of things that I learn whilst using the Microsoft Cloud whilst hepling build solutions as an Office 365 Solutions Architect'
+title:               GARRY TRINDER
+tagline:             On a journey in the Microsoft Cloud ...
+description:         I am driven by finding better ways of solving problems to help people become more productive in their lives, by sharing my knowledge with others and engaging in discussions, this will enable us to create innovative solutions to problems using the Microsoft cloud
 url:                 https://github.com/garrytrinder.github.io
 baseurl:             ''
 paginate:            5
@@ -17,6 +17,9 @@ author:
   name:              Garry Trinder
   url:               https://twitter.com/garrytrinder
   email:             garry.trinder@live.com
+  twitter:           https://twitter.com/garrytrinder
+  github:            https://github.com/garrytrinder
+  instagram:         https://www.instagram.com/garrytrinder
 
 # Custom vars
 version:             1.0.0
