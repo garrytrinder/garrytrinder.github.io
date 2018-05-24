@@ -27,7 +27,7 @@ This really struck a chord with me, for long parts of my time in IT, my focus wa
 
 ![](/public/img/the-golden-circle.png){: .center-image }
 
-The Golden Circle is how Simon "codeified" his message, starting from within the circle, Why drives behaviour, How and What are the tools to help achieve that behaviour.
+The Golden Circle is how Simon "codeified" his message, starting from within the circle, Why drives behaviour, How and What are the tools to help achieve that behaviour. I'm not going to go into detail about how that behaviour is changed, Simon can do it so much better than I can, in the video above.
 
 ### Finding My Why
 
