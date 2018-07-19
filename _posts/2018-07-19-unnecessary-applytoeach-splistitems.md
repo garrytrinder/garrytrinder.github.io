@@ -32,9 +32,9 @@ This is where an Expression and the First() function comes in, allowing us to re
 The expression used above is in full below
 
 ``` javascript
-first(body('Get_Car_from_Cars_List'))?['Manufacturer']
+first(body('Get_Car_from_Cars_List')?['value'])?['Manufacturer']
 ```
- 
+
  > body references are always the name of the actions but spaces replaced with underscores. Name your actions wisely!
 
 Although this is a very simple example, when we are building Flows it is quite easy for them to become large quite quickly so any way of removing actions is a good thing.
