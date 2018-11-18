@@ -26,4 +26,4 @@ author:
 # Custom vars
 version:             1.0.0
 google_analytics:    UA-119232328-1
-plugins:             [jekyll-paginate, jekyll-seo-tag]
+plugins:             [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
