@@ -8,7 +8,7 @@ relative_permalinks: false
 title:               GARRY TRINDER
 tagline:             On a journey in the Microsoft Cloud ...
 description:         I am driven by finding better ways of solving problems to help people become more productive by sharing my knowledge with others and engaging in discussions, it will inspire us to create innovative solutions to problems using the Microsoft cloud
-url:                 https://github.com/garrytrinder.github.io
+url:                 https://garrytrinder.github.io
 baseurl:             ''
 paginate:            5
 
@@ -26,6 +26,4 @@ author:
 # Custom vars
 version:             1.0.0
 google_analytics:    UA-119232328-1
-plugins:             [jekyll-paginate, jekyll-seo-tag]
-gems:
-  - jekyll-sitemap
+plugins:             [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
