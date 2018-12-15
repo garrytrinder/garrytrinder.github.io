@@ -26,8 +26,10 @@ It uses the Microsoft.Online.SharePoint.PowerShell model to return all SharePoin
 
 The list of templates (to my knowledge) that determine a modern site are
 
-- STS#3 - Modern Team Site with No Office 365 Group
-- GROUP#0 - Modern Team Site with Connected Office 365 Group
-- SITEPAGEPUBLISHING#0 - Modern Communications Site
+| Template             | Description                                      |
+| :------------------- | :----------------------------------------------- |
+| STS#3                | Modern Team Site with No Office 365 Group        |
+| GROUP#0              | Modern Team Site with Connected Office 365 Group |
+| SITEPAGEPUBLISHING#0 | Modern Communications Site                       |
 
 A good starting point if nothing else to track down those classic sites or just to see how much spread of site experiences you have across your tenant 😀
