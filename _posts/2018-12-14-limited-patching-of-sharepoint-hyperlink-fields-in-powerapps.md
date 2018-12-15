@@ -13,13 +13,13 @@ A colleague who was working on an app we are building for a client was having is
 
 I was busy at the time so threw out a tweet to get some traction on solving the issue whilst mentioning some well known PowerAppers in the process.
 
-<div style="text-align:-webkit-center"><blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Anyone know if it is possible to update a SharePoint Hyperlink field using Patch() in <a href="https://twitter.com/PowerApps?ref_src=twsrc%5Etfw">@PowerApps</a> ? <a href="https://twitter.com/ShanesCows?ref_src=twsrc%5Etfw">@ShanesCows</a> <a href="https://twitter.com/8bitclassroom?ref_src=twsrc%5Etfw">@8bitclassroom</a> <a href="https://twitter.com/hashtag/PowerAppsHelp?src=hash&amp;ref_src=twsrc%5Etfw">#PowerAppsHelp</a></p>&mdash; Garry Trinder (@garrytrinder) <a href="https://twitter.com/garrytrinder/status/1073581191410929664?ref_src=twsrc%5Etfw">December 14, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<blockquote class="twitter-tweet tw-align-center" data-partner="tweetdeck"><p lang="en" dir="ltr">Anyone know if it is possible to update a SharePoint Hyperlink field using Patch() in <a href="https://twitter.com/PowerApps?ref_src=twsrc%5Etfw">@PowerApps</a> ? <a href="https://twitter.com/ShanesCows?ref_src=twsrc%5Etfw">@ShanesCows</a> <a href="https://twitter.com/8bitclassroom?ref_src=twsrc%5Etfw">@8bitclassroom</a> <a href="https://twitter.com/hashtag/PowerAppsHelp?src=hash&amp;ref_src=twsrc%5Etfw">#PowerAppsHelp</a></p>&mdash; Garry Trinder (@garrytrinder) <a href="https://twitter.com/garrytrinder/status/1073581191410929664?ref_src=twsrc%5Etfw">December 14, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Shane thankfully replied and helped push me in the right direction but gave me confidence that it was indeed possible.
 
-<div style="text-align:-webkit-center"><blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="en" dir="ltr">If I remember correctly you can update either the URL or the text but not both? Make a sample app with the Hyperlink column and see what options it offers you. Good place to start.</p>&mdash; Shane Young PowerApps MVP (@ShanesCows) <a href="https://twitter.com/ShanesCows/status/1073585537460699136?ref_src=twsrc%5Etfw">December 14, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<blockquote class="twitter-tweet tw-align-center" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="en" dir="ltr">If I remember correctly you can update either the URL or the text but not both? Make a sample app with the Hyperlink column and see what options it offers you. Good place to start.</p>&mdash; Shane Young PowerApps MVP (@ShanesCows) <a href="https://twitter.com/ShanesCows/status/1073585537460699136?ref_src=twsrc%5Etfw">December 14, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 So I did exactly that, built a PowerApp and tested it myself.
 
