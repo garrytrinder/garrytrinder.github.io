@@ -1,6 +1,6 @@
 ---
 layout:         post
-title:          Identify SharePoint Site Experience by PowerShell
+title:          Identify SharePoint Online Site Experience by PowerShell
 category:       PowerShell
 tags:           [PowerShell,SharePoint,Modern,Classic,Experience,SPO,sphelp]
 permalink:      /:year/:month/:title
