@@ -7,7 +7,7 @@ permalink:      /:year/:month/:title
 published:      true
 ---
 
-I love Harvest, we are big fans of the time recording system [@idlive](https://www.id-live.com) and have been using it for years to track time spent on delivering projects for our clients. After a discussion one day with our Delivery Lead, he expressed an idea... "wouldn't it be great if we could share the time tracked on our projects directly with our customers?". An idea was born and a solution was to present itself...
+[Harvest](https://getharvest.com), we are big fans of the time recording system [@idlive](https://www.id-live.com) and have been using it for years to track time spent on delivering projects for our clients. After a discussion one day with our Delivery Lead, he expressed an idea... "wouldn't it be great if we could share the time tracked on our projects directly with our customers?". An idea was born and a solution was to present itself...
 
 One Sunday afternoon I sat down to look at the first problem... "how do I export time entries out of Harvest?" which this post tackles.
 
