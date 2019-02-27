@@ -47,7 +47,7 @@ I will follow up with another blog post of how I import thousands of records sto
 
 The Harvest API Custom Connector that I use in this Flow is on Github [here](https://github.com/garrytrinder/harvest-api-powerplatform-custom-connector), with instructions on how to setup the connector in your own tenant.
 
-Complete Flow
+### Complete Flow
 
 ![](/public/img/flow/harvest-connector-time-entries.png){: .center-image }
 
