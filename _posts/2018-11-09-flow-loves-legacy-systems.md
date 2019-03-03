@@ -1,8 +1,8 @@
 ---
 layout:         post
-title:          Flow loves Legacy Systems
-category:       Flow
-tags:           [Flow,Integration,Legacy,File System]
+title:          Flow ❤️ Legacy Systems
+category:       Integration
+tags:           [Microsoft Flow,Legacy,File System,On-premises data gateway, SharePoint Online,]
 permalink:      /:year/:month/:title
 published:      true
 ---
@@ -35,13 +35,4 @@ We have built two flows that again use the File System connector to trigger when
 
 In all, the integration side of the project has taken very little time to implement, literally hours, which I find amazing. In years gone by this level of integration would have resorted to writing code and would have taken days, even weeks, to achieve. Flow has taken all that pain away and given much more flexibility to what traditionally has been rigid, costly exercise.
 
-So if you have old systems, don't think that they can't have their day once again, Flow can help :)
-
-
-
-
-
-
-
-
-
+So if you have old systems, don't think that they can't have their day once again, Flow can help 😀

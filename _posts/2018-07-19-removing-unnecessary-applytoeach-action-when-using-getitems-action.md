@@ -1,8 +1,8 @@
 ---
 layout:         post
 title:          Removing unnecessary Apply to Each action when using Get Items action
-category:       Flow
-tags:           [Flow,SharePoint,Get Items, Performance, Expression, Refactoring]
+category:       Integration
+tags:           [Microsoft Flow,SharePoint,Get Items, Performance, Expression, Refactoring, First()]
 permalink:      /:year/:month/:title
 published:      true
 ---

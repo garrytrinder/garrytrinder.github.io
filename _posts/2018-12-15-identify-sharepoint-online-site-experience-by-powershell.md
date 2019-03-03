@@ -1,8 +1,8 @@
 ---
 layout:         post
 title:          Identify SharePoint Online Site Experience by PowerShell
-category:       PowerShell
-tags:           [PowerShell,SharePoint,Modern,Classic,Experience,SPO,sphelp]
+category:       Administration
+tags:           [PowerShell,SharePoint,Modern SharePoint,Classic SharePoint,SharePoint Online,'#sphelp',Site Templates]
 permalink:      /:year/:month/:title
 published:      true
 ---
