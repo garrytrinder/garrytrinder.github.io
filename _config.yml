@@ -11,6 +11,7 @@ description:         I am driven by finding better ways of solving problems to h
 url:                 https://garrytrinder.github.io
 baseurl:             ''
 paginate:            5
+lang:                en_GB
 
 # About/contact
 author:
@@ -22,8 +23,27 @@ author:
   instagram:         https://www.instagram.com/garrytrinder
   linkedin:          https://www.linkedin.com/in/gtrinder
 
+# Twitter
+twitter:
+  username:          garrytrinder
+  card:              summary
+
+# Social
+social:
+  name: Garry Trinder
+  links:
+    - https://twitter.com/garrytrinder
+    - https://www.linkedin.com/in/gtrinder
+    - https://www.instagram.com/garrytrinder
+    - https://github.com/garrytrinder
+
+# Verification
+webmaster_verifications:
+  google:             2Ta-fURWtx-kxtVGw_FQT1AbMbsPV7LdDNXlKgTe7Ko
 
 # Custom vars
 version:             1.0.0
 google_analytics:    UA-119232328-1
 plugins:             [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
+
+#

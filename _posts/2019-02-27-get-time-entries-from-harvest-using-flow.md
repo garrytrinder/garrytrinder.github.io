@@ -1,8 +1,8 @@
 ---
 layout:         post
 title:          Export Time Entries from Harvest using Microsoft Flow
-category:       Flow
-tags:           [Flow,Harvest,OpenAPI,Custom Connector,OAuth,PowerPlatform]
+category:       Integration
+tags:           [Microsoft Flow,Harvest,OpenAPI,Custom Connector,OAuth 2.0,PowerPlatform]
 permalink:      /:year/:month/:title
 published:      true
 ---
