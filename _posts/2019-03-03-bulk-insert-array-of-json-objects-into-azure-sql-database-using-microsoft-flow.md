@@ -7,7 +7,7 @@ permalink:      /:year/:month/:title
 published:      true
 ---
 
-Following on from my previous post, [Export Time Entries from Harvest using Microsoft Flow](/2019/02/get-time-entries-from-harvest-using-flow), I ended up with an array of time entries in JSON format and now I need to store it all away in an Azure SQL table.
+Following on from my previous post, [Export Time Entries from Harvest using Microsoft Flow](/2019/02/get-time-entries-from-harvest-using-flow), I ended up with an array of time entries objects and now I need to store it all away in an Azure SQL table.
 
 The easiest approach would be to utilise an Apply to Each action to loop over all of the entries pulled from the Harvest API and in each loop use the Insert Record action to add a new item to the table. 
 
