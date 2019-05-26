@@ -5,4 +5,4 @@ title: About
 
 I am a Microsoft Certified Professional specialising in Microsoft SharePoint and Office 365, based in Barnsley, UK.
 
-Currently working for [ID](https://www.id-live.com/ "Intelligent Decisioning Ltd"), a Microsoft SharePoint Gold Partner based in Nottingham, as an Office 365 Solutions Architect.
+Currently working for [CPS](https://www.cps.co.uk "Corporate Project Solutions"), a multi award winning Microsoft Gold Partner based in Marlow, Buckinghamshire, as an Solutions Architect, specialising in Integration and Automation.
