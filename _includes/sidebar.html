@@ -5,29 +5,31 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-      <p><img src="{{ site.baseurl }}/public/img/profile.jpg" alt="me"></p>
+    <p><img src="{{ site.baseurl }}/public/img/profile.jpg" alt="me"></p>
     <p>{{ site.description }}</p>
   </div>
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
-    {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme
+    {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter.
+    See readme
     for usage. {% endcomment %} {% assign pages_list = site.pages | sort:"url" %} {% for node in pages_list %} {% if node.title
     != null %} {% if node.layout == "page" %}
-    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}"
+      href="{{ node.url }}">{{ node.title }}</a>
     {% endif %} {% endif %} {% endfor %}
     <span class="sidebar-nav-item sidebar-social">
-      <a href="{{ site.author.twitter }}" title="Twitter" target="_blank">
+      <a href="{{ site.author.twitter }}" title="Twitter">
         <i class="fab fa-twitter fa-2x"></i>
       </a>
-      <a href="{{ site.author.linkedin }}" title="LinkedIn" target="_blank">
+      <a href="{{ site.author.linkedin }}" title="LinkedIn">
         <i class="fab fa-linkedin-in fa-2x"></i>
       </a>
-      <a href="{{ site.author.github }}" title="GitHub" target="_blank">
+      <a href="{{ site.author.github }}" title="GitHub">
         <i class="fab fa-github fa-2x"></i>
       </a>
-      <a href="{{ site.author.instagram }}" title="Instagram" target="_blank">
-        <i class="fab fa-instagram fa-2x"></i>
+      <a href="/atom.xml" title="RSS">
+        <i class="fas fa-rss-square fa-2x"></i>
       </a>
     </span>
   </nav>
