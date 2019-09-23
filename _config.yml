@@ -6,8 +6,8 @@ relative_permalinks: false
 
 # Setup
 title: GARRY TRINDER
-tagline: On a journey in the Microsoft Cloud ...
-description: I am driven by finding better ways of solving problems to help people become more productive by sharing my knowledge with others and engaging in discussions, it will inspire us to create innovative solutions to problems using the Microsoft cloud
+tagline: 
+description: 
 url: https://garrytrinder.github.io
 baseurl: ""
 paginate: 5

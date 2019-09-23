@@ -10,7 +10,15 @@ h6,
   font-family: "Roboto", serif;
 }
 
+.sidebar img {
+  margin: 0;
+}
+
 .sidebar-social a {
+  margin-right: 1rem;
+}
+
+.sidebar-social img {
   margin-right: 1rem;
 }
 
@@ -24,7 +32,8 @@ h6,
   display: block;
 }
 
-.post-category, .post-tags {
+.post-category,
+.post-tags {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
