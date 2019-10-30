@@ -9,7 +9,7 @@ published:      true
 
 This post will guide you through the process of creating and configuring a remote development container within Visual Studio Code for Microsoft Teams app development. The 'Visual Studio Code Remote - Containers' extension lets you use a Docker container as a full-featured development environment. 
 
-### Prerequisities
+### Prerequisites
 
 This guide assumes that you have Docker already installed configured to use Linux containers and is running, see [Docker Install](https://docs.docker.com/v17.12/install/) for more detail.
 
