@@ -5,8 +5,8 @@ permalink: pretty
 relative_permalinks: false
 
 # Setup
-title: GARRY TRINDER
-tagline: 
+title: Garry Trinder
+tagline: Microsoft Office Development MVP
 description: 
 url: https://garrytrinder.github.io
 baseurl: ""
@@ -21,6 +21,7 @@ author:
   twitter: https://twitter.com/garrytrinder
   github: https://github.com/garrytrinder
   linkedin: https://www.linkedin.com/in/gtrinder
+  mvp: https://mvp.microsoft.com/en-us/PublicProfile/5003609?fullName=Garry%20Trinder
 
 # Twitter
 twitter:
@@ -35,7 +36,6 @@ webmaster_verifications:
 version: 1.0.0
 google_analytics: UA-119232328-1
 plugins:
-  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
