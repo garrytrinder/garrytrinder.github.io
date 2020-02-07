@@ -91,3 +91,8 @@ span.sidebar-nav-item.sidebar-social {
 .sidebar-toggle {
   z-index: 99;
 }
+
+.sidebar-stickers {
+  position: absolute;
+  bottom: 0;
+}
