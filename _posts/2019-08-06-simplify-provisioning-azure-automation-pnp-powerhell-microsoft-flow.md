@@ -1,6 +1,6 @@
 ---
 layout:         post
-title:          🎥 Simplify your provisioning with Azure Automation, PnP PowerShell and Microsoft Flow
+title:          Simplify your provisioning with Azure Automation, PnP PowerShell and Microsoft Flow
 category:       Provisioning
 tags:           [Azure Automation,Runbooks,PnP,PowerShell,Microsoft Flow, Recording]
 permalink:      /:year/:month/:title
@@ -13,7 +13,7 @@ Earlier this year, I really wanted to get back into speaking at local user group
  
 Since then I have repeated this session at the Nottingham, Leeds and Glasgow User Groups, the latter of which was done remotely and also recorded. I hope you enjoy :)
 
-<div><iframe width="560" height="315" src="https://www.youtube.com/embed/Ctoqldtfylk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div style="display:flex;justify-content: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/Ctoqldtfylk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 > Please be aware that it was recently announced that the Azure Automation connector, along with all other Azure based connectors, will require a premium licence from 1st October 2019. For more information on the licence changes [here](https://docs.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq#will-powerapps-and-microsoft-flow-use-rights-change-for-office-365-applications) 
 

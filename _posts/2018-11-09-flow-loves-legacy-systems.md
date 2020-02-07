@@ -1,6 +1,6 @@
 ---
 layout:         post
-title:          Flow ❤️ Legacy Systems
+title:          Flow loves Legacy Systems
 category:       Integration
 tags:           [Microsoft Flow,Legacy,File System,On-premises data gateway, SharePoint Online,]
 permalink:      /:year/:month/:title
