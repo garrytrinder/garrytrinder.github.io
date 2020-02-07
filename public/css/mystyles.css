@@ -92,3 +92,8 @@ span.sidebar-nav-item.sidebar-social {
   z-index: 99;
   position: absolute;
 }
+
+.sidebar-stickers {
+  position: absolute;
+  bottom: 0;
+}
