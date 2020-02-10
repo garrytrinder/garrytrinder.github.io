@@ -90,5 +90,5 @@ span.sidebar-nav-item.sidebar-social {
 
 .sidebar-toggle {
   z-index: 99;
-  position: absolute;
+  position: fixed;
 }
