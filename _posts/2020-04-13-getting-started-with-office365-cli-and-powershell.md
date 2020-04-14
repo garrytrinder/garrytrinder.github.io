@@ -159,6 +159,6 @@ As the above examples show, we can easily create PowerShell objects using this a
 
 ### Find out more
 
-If you need more help getting started or want more details about the commands, the architecture or the project, go to [aka.ms/o365cli](aka.ms/o365cli). 
+If you need more help getting started or want more details about the commands, the architecture or the project, go to [https://aka.ms/o365cli](aka.ms/o365cli). 
 
-If you see any room for improvement or suggestios, please don’t hesitate to reach out to us either on [GitHub](https://aka.ms/o365cli) or [@office365cli](https://twitter.com/office365cli) on Twitter.
+If you see any room for improvement or suggestions, please don’t hesitate to reach out to us either on [GitHub](https://aka.ms/o365cli) or [@office365cli](https://twitter.com/office365cli) on Twitter.
