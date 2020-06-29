@@ -92,3 +92,9 @@ span.sidebar-nav-item.sidebar-social {
   z-index: 99;
   position: fixed;
 }
+
+@media (min-width: 56em) {
+  .container {
+    max-width: 71.25rem;
+  }
+}
