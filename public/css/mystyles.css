@@ -98,3 +98,8 @@ span.sidebar-nav-item.sidebar-social {
     max-width: 71.25rem;
   }
 }
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}

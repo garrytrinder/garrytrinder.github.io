@@ -36,7 +36,10 @@ To keep things super simple, our Azure Logic App will just make a single call to
 - Click `Review + Create`
 - Click `Create` to provision the Azure Logic App
 
-![](/public/img/managedidentity/create-logic-app.gif){: .center-image }
+<video autoplay loop muted playsinline>  
+  <source src="/public/img/managedidentity/create-logic-app.webm" type="video/webm">  
+  <source src="/public/img/managedidentity/create-logic-app.mp4" type="video/mp4">  
+</video>
 
 ## Enable Azure Managed Identity on the Azure Logic App
 
@@ -46,7 +49,10 @@ To keep things super simple, our Azure Logic App will just make a single call to
 - Click `Save`
 - Click `Yes` to the prompt which consents that you understand that an identity will be created in Azure Active Directory
 
-![](/public/img/managedidentity/enable-managed-identity.gif){: .center-image }
+<video autoplay loop muted playsinline>  
+  <source src="/public/img/managedidentity/enable-managed-identity.webm" type="video/webm">  
+  <source src="/public/img/managedidentity/enable-managed-identity.mp4" type="video/mp4">  
+</video>
 
 > Learn more about Managed Identity on [docs.microsoft.com](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview)
 
@@ -59,7 +65,10 @@ To keep things super simple, our Azure Logic App will just make a single call to
 - Click on the name of the application listed in the table to view the Service Principal details
 - Click the `Permissions` menu item under the `Security` section
 
-![](/public/img/managedidentity/view-managed-identity-service-principal.gif){: .center-image }
+<video autoplay loop muted playsinline>  
+  <source src="/public/img/managedidentity/view-managed-identity-service-principal.webm" type="video/webm">  
+  <source src="/public/img/managedidentity/view-managed-identity-service-principal.mp4" type="video/mp4">  
+</video>
 
 ## Grant the Azure Managed Identity Service Principal Microsoft Graph app only permissions
 
@@ -71,7 +80,10 @@ To keep things super simple, our Azure Logic App will just make a single call to
 - Close the `Cloud Shell` prompt
 - Click `Refresh` to update the Permissions and confirm that the new permission has been granted 
 
-![](/public/img/managedidentity/grant-microsoft-graph-permission.gif){: .center-image }
+<video autoplay loop muted playsinline>  
+  <source src="/public/img/managedidentity/grant-microsoft-graph-permission.webm" type="video/webm">  
+  <source src="/public/img/managedidentity/grant-microsoft-graph-permission.mp4" type="video/mp4">  
+</video>
 
 > The tool used in this step is the `CLI for Microsoft 365` which is pre-installed in the Azure Cloud Shell, as it is a cross platform tool it can be used in either `bash` or `PowerShell`. To learn more about the CLI and its features/commands, check out the project [documentation](https://aka.ms/cli-m365)
 
@@ -92,7 +104,10 @@ To keep things super simple, our Azure Logic App will just make a single call to
 - Enter `https://graph.microsoft.com` in the `Audience` field
 - Click `Save`
 
-![](/public/img/managedidentity/configure-logic-app.gif){: .center-image }
+<video autoplay loop muted playsinline>  
+  <source src="/public/img/managedidentity/configure-logic-app.webm" type="video/webm">  
+  <source src="/public/img/managedidentity/configure-logic-app.mp4" type="video/mp4">  
+</video>
 
 ## Manually run the Azure Logic App
 
@@ -100,7 +115,10 @@ To keep things super simple, our Azure Logic App will just make a single call to
 - After a few moments the Logic App Designer will display the results of the run
 - Click the HTTP action to view the succesful request result
 
-![](/public/img/managedidentity/run-logic-app.gif){: .center-image }
+<video autoplay loop muted playsinline>  
+  <source src="/public/img/managedidentity/run-logic-app.webm" type="video/webm">  
+  <source src="/public/img/managedidentity/run-logic-app.mp4" type="video/mp4">  
+</video>
 
 Congratulations! You just pulled data from the Microsoft Graph without having to pass any credentials! 🎉 🚀
 
