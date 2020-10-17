@@ -3,12 +3,10 @@ layout: page
 title: About
 ---
 
-I am a Microsoft Certified Professional specialising in SharePoint and Office 365, based in Barnsley, UK. 
+Garry is a Microsoft Office Development MVP, Solutions Architect and Development Team Lead at [Corporate Project Solutions](https://www.cps.co.uk) (CPS), located in the UK.
 
-Currently working for [CPS](https://www.cps.co.uk "Corporate Project Solutions"), a multi award winning Microsoft Gold Partner based in Marlow, Buckinghamshire, as an Solutions Architect, specialising in Integration and Automation.
+He has specialised in SharePoint and Office 356 development for the past 10 years and has had many roles from administrator, developer and consultant. In recent years, his focus has been on integration and automation in Microsoft 365 using the Microsoft Azure platform.
 
-In January 2020, I received the Microsoft [Most Valuable Professional](https://mvp.microsoft.com/en-us/PublicProfile/5003609) (MVP) for Office Development.
+Passionate about community, he is a [Microsoft 365 Patterns and Practices](https://pnp.github.io) (PnP) team member, co-maintainer of the open source tenant management tool, [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365) and is a co-organiser of the [PowerPlatform User Group Leeds](https://www.meetup.com/PowerPlatform-User-Group-Leeds/) (PPUG_Leeds).
 
-In April 2020, I officially [joined](https://developer.microsoft.com/en-us/office/blogs/new-microsoft-365-patterns-and-practices-pnp-team-model-with-new-community-leads/) the Microsoft 365 Patterns and Practices (PnP) team through my contributions to the community and helping to lead the [Office 365 CLI](https://pnp.github.io/office365-cli/) project as a project maintainer.
-
-I am also a co-organiser of the [PowerPlatform User Group](https://www.meetup.com/PowerPlatform-User-Group-Leeds/) held in Leeds, which meets bi-monthly to discuss the latest announcements of features across Microsoft 365.
+He is also a co-presenter of the [GreyHatBeard](https://www.greyhatbeard.com/) podcast, with colleagues [Kevin McDonnell](https://www.mcd79.com/) and [Alan Eardley](https://blog.eardley.co.uk), discussing all things Microsoft 365 and the modern workplace.
