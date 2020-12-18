@@ -19,7 +19,7 @@ As Azure manages the identity for us, we gain a number of benefits
 
 - No client credentials to handle
 - Automatic credential rolling
-- Identies are tied to Azure Resources
+- Identities are tied to Azure Resources
 - No additional cost
 
 To keep things super simple, our Azure Logic App will just make a single call to return all Microsoft 365 groups in a given tenant using Azure Managed Identity to authenticate with the Microsoft Graph.
@@ -76,7 +76,7 @@ To keep things super simple, our Azure Logic App will just make a single call to
 - Wait for the Cloud Shell session to start
 - Execute `m365 login --authType identity` to login to your Microsoft 365 tenant using Managed Identity authentication
 - Execute `m365 status` to confirm login status
-- Execute `m365 aad approleassignment add --displayName "la-apponly-graph-dev" --resource "Microsoft Graph" --scope "Group.Read.All"` to grant the Managed Identity Service Prinicpal the Group.Read.All application permission to the Microsoft Graph
+- Execute `m365 aad approleassignment add --displayName "la-apponly-graph-dev" --resource "Microsoft Graph" --scope "Group.Read.All"` to grant the Managed Identity Service Principal the Group.Read.All application permission to the Microsoft Graph
 - Close the `Cloud Shell` prompt
 - Click `Refresh` to update the Permissions and confirm that the new permission has been granted 
 
@@ -91,7 +91,7 @@ To keep things super simple, our Azure Logic App will just make a single call to
 
 - Open the Logic App
 - Scroll down to view the `Templates` section and click `Blank Logic App` to open the Logic App Designer
-- Search for `Reccurence`, click on `Schedule` and then `Recurrence` to add the trigger action
+- Search for `Recurrence`, click on `Schedule` and then `Recurrence` to add the trigger action
 - Leave the trigger action inputs as the default values
 - Click `New step`
 - Search for `HTTP`, click on `HTTP` to add the action
@@ -111,9 +111,9 @@ To keep things super simple, our Azure Logic App will just make a single call to
 
 ## Manually run the Azure Logic App
 
-- Click the `Run` button in the Logic App Designer to manully trigger the Logic App
+- Click the `Run` button in the Logic App Designer to manually trigger the Logic App
 - After a few moments the Logic App Designer will display the results of the run
-- Click the HTTP action to view the succesful request result
+- Click the HTTP action to view the successful request result
 
 <video autoplay loop muted playsinline>  
   <source src="/public/img/managedidentity/run-logic-app.webm" type="video/webm">  
