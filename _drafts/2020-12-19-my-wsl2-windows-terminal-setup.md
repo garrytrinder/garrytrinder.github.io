@@ -2,7 +2,7 @@
 layout:         post
 title:          My WSL2 & Windows Terminal setup
 category:       Development
-tags:           [spfx,sharepoint framework,jetbrains,ligatures,oh-my-zsh,zsh,nvm,node version manager,windows terminal,windows subsystem for linux,wsl,wsl2,ubuntu,spaceship,prompt]
+tags:           [spfx,sharepoint framework,jetbrains,ligatures,oh-my-zsh,zsh,nvm,node version manager,node,nodejs,windows terminal,windows subsystem for linux,wsl,wsl2,ubuntu,spaceship,prompt,cli for microsoft 365,cli-microsoft365,github,azure,cli]
 permalink:      /:year/:month/:title
 published:      false
 ---
@@ -183,7 +183,7 @@ nvm use spfx-spo
 nvm use spfx-onprem
 ```
 
-## Terminal
+## Windows Terminal
 
 [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal) is a great open source terminal emulator from Microsoft enabling you to switch between different shells with ease and is fully customisable. 
 
@@ -234,3 +234,59 @@ I really like the `Atom One Dark` theme (I also use the same theme in VSCode), s
     "yellow": "#D19A66"
 }
 ```
+
+## CLI for Microsoft 365
+
+```
+npm i -g @pnp/cli-microsoft365@latest
+```
+
+```
+m365 cli completion sh setup
+```
+
+## GitHub CLI
+
+[GitHub CLI](https://cli.github.com/)
+
+[Installing gh on Linux and FreeBSD](https://github.com/cli/cli/blob/trunk/docs/install_linux.md#debian-ubuntu-linux-apt)
+
+```sh
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+sudo apt-add-repository https://cli.github.com/packages
+sudo apt update
+sudo apt install gh
+```
+
+Run the script at the command line to set VS Code as the default text editor for the CLI.
+
+```
+gh config set editor "code --wait"
+```
+
+## Azure CLI
+
+[Install Azure CLI with apt](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt#manual-install-instructions)
+ 
+```sh
+sudo apt-get update
+sudo apt-get install ca-certificates curl apt-transport-https lsb-release gnupg
+curl -sL https://packages.microsoft.com/keys/microsoft.asc |
+    gpg --dearmor |
+    sudo tee /etc/apt/trusted.gpg.d/microsoft.gpg > /dev/null
+    AZ_REPO=$(lsb_release -cs)
+echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main" |
+    sudo tee /etc/apt/sources.list.d/azure-cli.list
+sudo apt-get update
+sudo apt-get install azure-cli
+```
+
+Add to your `.zshrc` to configure tab autocompletion, this needs to be added before the plugins.
+
+```sh
+source /etc/bash_completion.d/azure-cli
+```
+
+## .zshrc
+
+<script src="https://gist.github.com/garrytrinder/3a651a34c9e0268eea6f88c22cc78134.js"></script>
