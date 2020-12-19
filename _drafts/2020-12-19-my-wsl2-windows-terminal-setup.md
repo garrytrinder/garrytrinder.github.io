@@ -9,7 +9,7 @@ published:      false
 
 Customising your terminal is nothing new 
 
-Add image
+![Customised oh my zsh shell running on Ubuntu WSL2 displayed in a Windows Terminal tab](../public/img/wsl2-terminal-setup/my-wsl2-terminal-setup.png)
 
 ## Font
 
@@ -25,7 +25,7 @@ I'm currently running Ubuntu 20.04 LTS which I installed from Microsoft Store af
 
 ## Shell
 
-I use [oh-my-zsh](https://ohmyz.sh/) as my preferred shell, it builds on the `zsh` shell, simplifying configuration and providing a huge ecosystem of themes and plugins.
+I use [oh my zsh](https://ohmyz.sh/) as my preferred shell, it builds on the `zsh` shell, simplifying configuration and providing a huge ecosystem of themes and plugins.
 
 Run the script at the command line and follow the instructions to download and install.
 
