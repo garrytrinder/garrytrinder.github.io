@@ -25,7 +25,7 @@ Its such a simple message, but something also that is hard to quantify, most peo
 
 ![](/public/img/the-golden-circle.png){: .center-image }
 
-The Golden Circle is how Simon "codeified" his message, starting from within the circle, Why drives behaviour, How and What are the tools to help achieve that behaviour. I'm not going to go into detail about how that behaviour is changed, Simon can do it so much better than I can, in the video above.
+The Golden Circle is how Simon "codified" his message, starting from within the circle, Why drives behaviour, How and What are the tools to help achieve that behaviour. I'm not going to go into detail about how that behaviour is changed, Simon can do it so much better than I can, in the video above.
 
 ### Finding My Why
 
@@ -35,4 +35,4 @@ After some thought, my Why is quite simple, the driving force behind the things 
 
 I just happen to do that through the use of the Microsoft cloud, be it Azure, Office 365, SharePoint Online, Flow etc and by writing posts on this blog I plan to share that knowledge.
 
-> My name is Garry, I am driven by finding better ways of solving problems to help people become more productive (why) by sharing my knowledge with others and engaging in discussions (how), it will inpire us to create innovative solutions to problems using the Microsoft cloud (what)
+> My name is Garry, I am driven by finding better ways of solving problems to help people become more productive (why) by sharing my knowledge with others and engaging in discussions (how), it will inspire us to create innovative solutions to problems using the Microsoft cloud (what)
