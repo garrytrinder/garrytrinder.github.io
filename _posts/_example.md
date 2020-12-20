@@ -4,7 +4,7 @@ title:          <Title>
 category:       <Category>
 tags:           [tag,tag]
 permalink:      /:year/:month/:title
-published:      true
+published:      false
 ---
 
 Content goes here
