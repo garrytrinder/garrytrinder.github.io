@@ -91,13 +91,13 @@ I really like the `Atom One Dark` theme (I also use the same theme in VSCode), s
 
 I use `zsh` as my preferred shell and [oh my zsh](https://ohmyz.sh/) to help manage my `zsh` configuration, it comes bundle with thousands of functions, helpers, plugins, and themes.
 
-Run the script at the command line and follow the instructions to download and install.
+I ran the script at the command line and followed the instructions to download and install.
 
 ```sh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-I set and uncommented `COMPLETION_WAITING_DOTS="true"` in `.zshrc`.
+I set `COMPLETION_WAITING_DOTS="true"` and uncommented the line in `.zshrc`.
 
 > By turning on `COMPLETION_WAITING_DOTS` I get visual feedback from the command line that my tab completion request has been invoked and that the shell is currently loading the available options
 
@@ -165,7 +165,7 @@ plugins=(git zsh-syntax-highlighting)
 
 I use this plugin to provide `as you type` completions based on my previous command execution history and available command completions.
 
-I ran the script at the command line to download.
+I ran the script at the command line to download to download and install.
 
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -189,7 +189,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | zsh
 
 As I can use three up to different versions of [nodejs](https://nodejs.org) for SharePoint Framework and [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365) development, I have installed `node@8`, `node@10` and the current LTS, `node@14`, also creating an alias for each version, to make switching between versions based on scenario much easier.
 
-For CLI for Microsoft 365 development, I have installed `node@14`. set it to be the default alias and given it a named alias of `cli-m365`.
+For CLI for Microsoft 365 development, I have installed `node@14`, set it to be the default alias and given it a named alias of `cli-m365`.
 
 ```sh
 nvm install 14
@@ -268,7 +268,7 @@ I use the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/get-started-wit
 
 What I really like about the Azure CLI over the PowerShell modules is the huge range of commands available and that the commands are idempotent, meaning that you can run them over and over, which makes it really quick and easy to build and test deployment scripts.
 
-As there is no package available yet for Ubuntu 20.04 LTS, I ran the below script to manually download and install.
+As there is no package available yet for Ubuntu 20.04 LTS, so I ran the below script to perform a manual install.
  
 ```sh
 sudo apt-get update
@@ -285,11 +285,17 @@ sudo apt-get install azure-cli
 
 I also added `source /etc/bash_completion.d/azure-cli` to `.zshrc` to setup command completions.
 
-## Configuration Files
+## My Configuration Files
 
-This is my current `.zshrc` file
+I've published the full contents of both of my zsh configuration and Windows Terminal settings to GitHub.
+
+### Zsh Configuration
+
+This is my current `.zshrc` file.
 
 <script src="https://gist.github.com/garrytrinder/3a651a34c9e0268eea6f88c22cc78134.js"></script>
+
+### Windows Terminal Settings
 
 This is my current `settings.json` file for Windows Terminal.
 
