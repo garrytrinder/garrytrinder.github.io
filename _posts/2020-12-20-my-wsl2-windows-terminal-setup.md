@@ -285,11 +285,17 @@ sudo apt-get install azure-cli
 
 I also added `source /etc/bash_completion.d/azure-cli` to `.zshrc` to setup command completions.
 
-## Configuration Files
+## My Configuration Files
 
-This is my current `.zshrc` file
+I've published the full contents of both of my zsh configuration and Windows Terminal settings to GitHub.
+
+### Zsh Configuration
+
+This is my current `.zshrc` file.
 
 <script src="https://gist.github.com/garrytrinder/3a651a34c9e0268eea6f88c22cc78134.js"></script>
+
+### Windows Terminal Settings
 
 This is my current `settings.json` file for Windows Terminal.
 
