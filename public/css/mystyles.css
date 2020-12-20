@@ -15,55 +15,6 @@
   text-decoration: none;
 }
 
-.center-image {
-  margin: 0 auto;
-  display: block;
-}
-
-h1 {
-  font-size: 1.5rem;
-  color: #1a202c;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  color: #1a202c;
-}
-
-body,
-.masthead-title small,
-.post-date {
-  color: #4a5568;
-}
-
-.masthead-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.masthead-title > img {
-  width: 1em;
-  margin: 0;
-  border-radius: 0;
-}
-
-@media (max-width: 38em) {
-  .masthead-title {
-    margin-left: 50px;
-  }
-}
-
-.post {
-  margin-bottom: 2em;
-}
-
-.post-date {
-  color: #a0aec0;
-}
-
 span.sidebar-nav-item.sidebar-social {
   display: flex;
   justify-content: space-between;
@@ -73,33 +24,32 @@ span.sidebar-nav-item.sidebar-social {
   margin-right: 0;
 }
 
-* {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+@font-face{
+  font-family: 'JetBrains Mono';
+  src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1.2;
+} 
+
+*, h1, h2, h3, h4, h5, h6 {
+  -webkit-font-feature-settings: "liga" on, "calt" on;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: 'JetBrains Mono';
 }
 
-.masthead {
-  position: fixed;
-  width: 100%;
-  z-index: 9;
-  background-color: #fff;
-}
-
-.content {
-  padding-top: 6rem;
-}
-
-.sidebar-toggle {
-  z-index: 99;
-  position: fixed;
-}
-
-@media (min-width: 56em) {
-  .container {
-    max-width: 71.25rem;
-  }
+code, pre {
+  font-family: 'JetBrains Mono';
 }
 
 video {
   width: 100%    !important;
   height: auto   !important;
+} 
+
+.post {
+  margin-bottom: 2em;
 }
