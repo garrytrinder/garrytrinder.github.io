@@ -1,0 +1,239 @@
+[
+    {
+        "ItemInternalId":"string",
+        "ID":1234,
+        "Title": "string",
+        "EventNumber": "string",
+        "EvidenceLink": "string",
+        "EvidenceNotes": "string",
+        "ActivityDate": "string",
+        "ActivityDetails": "string",
+        "EditHistory": "string",
+        "LocalCreated": "string",
+        "LocalModified": "string",
+        "ItemGUID": "string",
+        "EEGAppVersion": "string",
+        "Created": "string",
+        "Author" : {
+            "Claims": "string",
+            "DisplayName": "string",
+            "Email": "string",
+            "Department": "string",
+            "JobTitle": "string"
+        },
+        "Modified": "string",
+        "Editor": {
+            "Claims": "string",
+            "DisplayName": "string",
+            "Email": "string",
+            "Department": "string",
+            "JobTitle": "string"
+        },
+        "SyncStatus": "string"
+    },
+    {
+        "type": "array",
+        "items": {
+            "type": "object",
+            "properties": {
+                "ItemInternalId": {
+                    "type": "string"
+                },
+                "ID": {
+                    "type": "integer"
+                },
+                "Title": {
+                    "type": "string"
+                },
+                "EventNumber": {
+                    "type": "string"
+                },
+                "EvidenceLink": {
+                    "type": "string"
+                },
+                "EvidenceNotes": {
+                    "type": "string"
+                },
+                "ActivityDate": {
+                    "type": "string"
+                },
+                "ActivityDetails": {
+                    "type": "string"
+                },
+                "EditHistory": {
+                    "type": "string"
+                },
+                "LocalCreated": {
+                    "type": "string"
+                },
+                "LocalModified": {
+                    "type": "string"
+                },
+                "ItemGUID": {
+                    "type": "string"
+                },
+                "EEGAppVersion": {
+                    "type": "string"
+                },
+                "Created": {
+                    "type": "string"
+                },
+                "Author": {
+                    "type": "object",
+                    "properties": {
+                        "@@odata.type": {
+                            "type": "string"
+                        },
+                        "Claims": {
+                            "type": "string"
+                        },
+                        "DisplayName": {
+                            "type": "string"
+                        },
+                        "Email": {
+                            "type": "string"
+                        },
+                        "Picture": {
+                            "type": "string"
+                        },
+                        "Department": {
+                            "type": "string"
+                        },
+                        "JobTitle": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "Author#Claims": {
+                    "type": "string"
+                },
+                "Modified": {
+                    "type": "string"
+                },
+                "Editor": {
+                    "type": "object",
+                    "properties": {
+                        "@@odata.type": {
+                            "type": "string"
+                        },
+                        "Claims": {
+                            "type": "string"
+                        },
+                        "DisplayName": {
+                            "type": "string"
+                        },
+                        "Email": {
+                            "type": "string"
+                        },
+                        "Picture": {
+                            "type": "string"
+                        },
+                        "Department": {
+                            "type": "string"
+                        },
+                        "JobTitle": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "Editor#Claims": {
+                    "type": "string"
+                },
+                "SyncStatus": {
+                    "type": "string"
+                },
+                "{Identifier}": {
+                    "type": "string"
+                },
+                "{IsFolder}": {
+                    "type": "boolean"
+                },
+                "{Thumbnail}": {
+                    "type": "object",
+                    "properties": {
+                        "Large": {},
+                        "Medium": {},
+                        "Small": {}
+                    }
+                },
+                "{Link}": {
+                    "type": "string"
+                },
+                "{Name}": {
+                    "type": "string"
+                },
+                "{FilenameWithExtension}": {
+                    "type": "string"
+                },
+                "{Path}": {
+                    "type": "string"
+                },
+                "{FullPath}": {
+                    "type": "string"
+                },
+                "{ContentType}": {
+                    "type": "object",
+                    "properties": {
+                        "@@odata.type": {
+                            "type": "string"
+                        },
+                        "Id": {
+                            "type": "string"
+                        },
+                        "Name": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "{ContentType}#Id": {
+                    "type": "string"
+                },
+                "{HasAttachments}": {
+                    "type": "boolean"
+                },
+                "{VersionNumber}": {
+                    "type": "string"
+                },
+                "@@odata.etag": {
+                    "type": "string"
+                },
+                "ActivityType": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "ItemInternalId",
+                "ID",
+                "Title",
+                "EventNumber",
+                "EvidenceLink",
+                "EvidenceNotes",
+                "ActivityDate",
+                "EditHistory",
+                "LocalCreated",
+                "LocalModified",
+                "ItemGUID",
+                "EEGAppVersion",
+                "Created",
+                "Author",
+                "Author#Claims",
+                "Modified",
+                "Editor",
+                "Editor#Claims",
+                "SyncStatus",
+                "{Identifier}",
+                "{IsFolder}",
+                "{Thumbnail}",
+                "{Link}",
+                "{Name}",
+                "{FilenameWithExtension}",
+                "{Path}",
+                "{FullPath}",
+                "{ContentType}",
+                "{ContentType}#Id",
+                "{HasAttachments}",
+                "{VersionNumber}"
+            ]
+        }
+    }
+]

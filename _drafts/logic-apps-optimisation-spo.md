@@ -7,3 +7,5 @@ https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-pricing
 Use HTTP at a lower cost and have more options with Auth i.e managed identity
 
 400% increase in cost over SPO connectors
+
+#logicapps #cost

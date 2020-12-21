@@ -9,3 +9,5 @@ To decorate requests and prioritise traffic, the User-Agent header in HTTP reque
 `NONISV|CompanyName|AppName/Version`
 
 The setting of the User-Agent header can be set using the SharePoint HTTP action as well as the HTTP action.
+
+#throttling

@@ -13,3 +13,5 @@ As the new Flow is now returning a Record and not a boolean, the fix was to stat
 ```js
 Set(gblUploadEvidenceReceived,EEGEvidenceSync.Run(EvidenceJSON,SelectedRemitLabel).evidenceuploadreceived)
 ```
+
+#powerautomate #powerapps #breakingchange

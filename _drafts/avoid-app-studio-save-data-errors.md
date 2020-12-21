@@ -1,6 +1,6 @@
 # Avoid App Studio save Data Errors
 
-Power Apps that use the SaveData formula will through errors when editing in App Studio as it can only be used when running on a mobile device.
+Power Apps that use the SaveData formula will throw errors when editing in App Studio as it can only be used when running on a mobile device.
 
 We can suppress these errors by stopping SaveData from being run by using a global variable and wrapping the SaveData formulas in an if statement.
 
