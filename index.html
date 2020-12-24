@@ -4,7 +4,8 @@ title: Home
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% assign filtered-posts = site.posts | where:'hidden', nil %}
+  {% for post in filtered-posts %}
   <div class="post">
     <h3 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
