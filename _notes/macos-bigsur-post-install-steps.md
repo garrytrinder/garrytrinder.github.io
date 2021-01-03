@@ -1,11 +1,10 @@
 # macOS Big Sur Post Install Changes
 
-- Install
- - macOS Big Sur
- - Signed In with Apple account
- - Enabled Location Services
- - Enabled Touch ID
- - Enabled Siri
+- Install macOS Big Sur
+ - Sign in with Apple ID
+ - Enable Location Services
+ - Enable Touch ID
+ - Enable Siri
 
 - Users & Groups
  - Set User Photo
@@ -27,6 +26,7 @@
  - Automatically hide and show the Dock (On)
  - Spotlight -> Show in Menu Bar (Off)
  - Siri -> Show in Menu Bar (Off)
+ - Show recent applications in Dock (Off)
 
 - TextEdit Preferences
  - Format -> Plain Text
@@ -34,6 +34,12 @@
 - Security & Privacy
  - Use your Apple Watch to unlock apps and your Mac (On)
  - Firewall (On)
+
+- Spotlight
+ - Remove all categories
+ - Check
+  - Applications
+  - System Preferences
 
 - Desktop & Screen Saver
  - Desktop
@@ -46,7 +52,17 @@
 - Display
  - Resolution -> Scaled (Alt) -> 2560 x 1440
 
-- Homebrew
+- Font
+ - https://www.jetbrains.com/lp/mono/#how-to-install
+
+- Finder
+ - Sidebar
+  - Home Drive (On)
+  - iCloud Drive (Off)
+  - Recent Tags (Off)
+  - Dragged Home Drive to top
+
+- Homebrew Package Manager
  - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
  - Installs Command Line Tools for Xcode
 
@@ -59,6 +75,14 @@
 
 - Visual Studio Code (1.52.1)
  - brew install --cask visual-studio-code
+ - Extensions
+  - Remote - Containers
+ - Icons
+  - VSCode Icons
+ - Appearance
+  - Move Sidebar to Right
+ - Settings
+  - Font Family - 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace
 
 - Visual Studio 2019 for Mac (8.8.4.30)
  - brew install --cask visual-studio
@@ -87,8 +111,12 @@
  - Installed Windows 10 image
  - Granted access to Camera & Microphone
  - Signed in and activated license
+ - Granted Parallels Desktop Accessibility privileges in Security & Privacy
+ - Preferences
+  - Virtual Machine Dock Icons - None
 
 - Git GPG Commit Signing
+ - https://medium.com/better-programming/how-to-sign-your-git-commits-1014edaf1e85
  - sudo chown -R $(whoami) /usr/local/share/man/man8
  - chmod u+w /usr/local/share/man/man8
  - brew install gpg
@@ -116,6 +144,7 @@
   - git config user.email garry@trinder365.co.uk
 
 - GitHub SSH
+ - https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
  - ssh-keygen -t ed25519 -C "garry@trinder365.co.uk"
  - Entered passphrase
  - eval "$(ssh-agent -s)"
@@ -143,3 +172,38 @@
   - git config commit.gpgSign true
   - git config tag.gpgSign true
   - git config user.email garry@trinder365.co.uk
+
+  - App Store
+   - Microsoft To Do
+    - https://apps.apple.com/gb/app/microsoft-to-do/id1274495053?mt=12
+
+- Microsoft Office
+ - brew install --cask microsoft-office
+
+- Camtasia
+ - brew install --cask camtasia
+
+- Snagit
+ - brew install --cask snagit
+
+- iTerm2
+ - brew install --cask iterm2
+ - Profile
+  - Colors 
+   - OneTheme
+  - Font
+   - JetBrains Mono
+   - Ligatures Enabled
+
+- OneTheme iTerm2 Theme
+ - https://github.com/benniemosher/the-one-theme/
+ - Install https://github.com/benniemosher/the-one-theme#iterm-2
+
+- Spaceship Prompt
+ - Setup taken from https://garrytrinder.github.io/2020/12/my-wsl2-windows-terminal-setup
+
+- oh-my-zsh
+ - sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+- Microsoft Teams
+ - https://go.microsoft.com/fwlink/p/?LinkID=869428&clcid=0x809&culture=en-gb&country=GB&lm=deeplink&lmsrc=groupChatMarketingPageWeb&cmpid=directDownloadMac
