@@ -207,3 +207,6 @@
 
 - Microsoft Teams
  - https://go.microsoft.com/fwlink/p/?LinkID=869428&clcid=0x809&culture=en-gb&country=GB&lm=deeplink&lmsrc=groupChatMarketingPageWeb&cmpid=directDownloadMac
+
+- Elgato Control Center
+ - https://edge.elgato.com/egc/macos/eccm/1.1.3/Control_Center_1.1.3.10337.zip
