@@ -16,7 +16,10 @@
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [],
+	"extensions": [
+		"yzhang.markdown-all-in-one",
+		"kortina.vscode-markdown-notes"
+	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
