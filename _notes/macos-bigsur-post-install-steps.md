@@ -210,3 +210,9 @@
 
 - Elgato Control Center
  - https://edge.elgato.com/egc/macos/eccm/1.1.3/Control_Center_1.1.3.10337.zip
+
+- Slack
+ - brew install --cask slack
+
+- Discord
+ - brew install --cask discord
