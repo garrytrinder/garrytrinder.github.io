@@ -270,3 +270,6 @@
 - Discord
   - brew install --cask discord
 
+- nvm
+  - brew install nvm
+
