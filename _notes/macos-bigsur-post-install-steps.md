@@ -69,6 +69,7 @@
 - git (2.29.2)
   - brew install git
   - zsh completions and functions have been installed to: /usr/local/share/zsh/site-functions
+  - `git config --global user.name "Garry Trinder`
 
 - Docker (3.0.3,51017)
   - brew install --cask docker
@@ -146,6 +147,7 @@
     - git config commit.gpgSign true
     - git config tag.gpgSign true
     - git config user.email garry@trinder365.co.uk
+    - `git config user.signingkey 97673684 && git config commit.gpgSign true && git config tag.gpgSign true && git config user.email garry@trinder365.co.uk`
 
 - GitHub SSH
   - https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
@@ -280,3 +282,5 @@
       [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
       ```
 
+- jq
+  - brew install jq
