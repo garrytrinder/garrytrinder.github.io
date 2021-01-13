@@ -1,7 +1,24 @@
-# CPS Essential Skills
+# Essential Skills
 
 The aim of this list is to create a repository of essential skills and recommended resources to start your learning journey.
 
+## Azure DevOps
+
+DevOps is the 'union of people and process', Azure DevOps provides several tools to centralise team collaboration in projects bringing together project management, development and operations. It also has tools for creating automated build processes, automated testing, version control, and package management.
+
+- *Azure Boards*, these are agile tools that help us plan, track, and discuss our work, even with other teams.
+- *Azure Repos*, these provide unlimited, cloud-hosted private, and public Git repos.
+- *Azure Pipelines*, these will let us build, test, and deploy with CI/CD that works with any language, platform, and cloud.
+- *Azure Test Plans*, these are manual and exploratory testing tools.
+- *Azure Artifacts*, these let us create, host, and share packages.
+
+- 📖 Microsoft Learn
+  - [Get started with Azure DevOps](https://docs.microsoft.com/en-us/learn/modules/get-started-with-devops/)
+- 🎥 LinkedIn Learning
+  - [Learning Azure DevOps](https://www.linkedin.com/learning/learning-azure-devops/idea-to-release-with-azure-devops)
+- 💬 CPS Yammer Group
+  - [DevOps](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIzNTU1MDA0NDE2MCJ9/all)
+    
 ## Source Control
 
 A common feature of software that we use today and one of the most important features we look out for is the undo button to revert the last change we made, with some software being able to undo multiple changes to recover changes over a longer period of time.
@@ -19,29 +36,17 @@ This is where version control systems come in, they allow us to create repositor
     - [Programming Foundations: Version Control with Git](https://www.linkedin.com/learning/programming-foundations-version-control-with-git)
       - *Note: when using Windows, use Git Bash in replacement for the Mac terminal shown in the course*
 
-## Azure DevOps
-
-Azure DevOps provides several tools you can use for better team collaboration. It also has tools for automated build processes, testing, version control, and package management.
-
-- *Azure Repos*, these provide unlimited, cloud-hosted private, and public Git repos.
-- *Azure Boards*, these are agile tools that help us plan, track, and discuss our work, even with other teams.
-- *Azure Pipelines*, these will let us build, test, and deploy with CI/CD that works with any language, platform, and cloud.
-- *Azure Test Plans*, these are manual and exploratory testing tools.
-- *Azure Artifacts*, these let us create, host, and share packages.
-
-  - 📖 Microsoft Learn
-    - [Get started with Azure DevOps](https://docs.microsoft.com/en-us/learn/modules/get-started-with-devops/)
-  - 🎥 LinkedIn Learning
-      - [Learning Azure DevOps](https://www.linkedin.com/learning/learning-azure-devops/idea-to-release-with-azure-devops)
-
 ## PowerShell
 
-Windows PowerShell is an interactive object-oriented command environment with scripting language features that utilizes small programs called cmdlets to simplify configuration, administration, and management of heterogeneous environments in both standalone and networked typologies by utilizing standards-based remoting protocols.
+PowerShell is an interactive object-oriented command environment with scripting language features that utilizes small programs called cmdlets to simplify configuration, administration, and management of environments.
 
-  -  📖 Microsoft Learn
-      - [Introduction to PowerShell](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/)
-    - 🎥 LinkedIn Learning
-      - [PowerShell 7 Essential Training](https://www.linkedin.com/learning/powershell-7-essential-training/get-up-and-running-with-powershell-7)
+ - 📖 Microsoft Learn
+   - [Introduction to PowerShell](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/)
+ - 🎥 LinkedIn Learning
+   - [PowerShell 7 Essential Training](https://www.linkedin.com/learning/powershell-7-essential-training/get-up-and-running-with-powershell-7)
+ - 💬 CPS Yammer Group
+   - [PowerShell](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI0NzkxNjI5NDE0NCJ9/all)
+
 
 ## Power Automate
 
@@ -51,15 +56,19 @@ Power Automate, formerly Flow, is Microsoft’s cloud-based workflow engine. It 
     - [Introduction to Power Automate](https://docs.microsoft.com/en-us/learn/modules/introduction-power-automate/)
   - 🎥 LinkedIn Learning
     - [Microsoft Power Automate Essential Training](https://www.linkedin.com/learning/microsoft-power-automate-essential-training/save-time-by-automating-common-business-processes)
+  - 💬 CPS Yammer Group
+    - [Power Apps/Power Automate](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMjc5MjYyNSJ9/all)
 
 ## Power Apps
 
 Power Apps is a suite of apps, services, connectors and data platform that provides a rapid application development environment to build custom apps for your business needs. Using Power Apps, you can quickly build custom business apps that connect to your business data stored either in the underlying data platform (Microsoft Dataverse) or in various online and on-premises data sources (SharePoint, Microsoft 365, Dynamics 365, SQL Server, and so on).
 
   - 📖 Microsoft Learn
-    -  [Get started with Power Apps](https://docs.microsoft.com/en-us/learn/modules/get-started-with-powerapps/)
+    - [Get started with Power Apps](https://docs.microsoft.com/en-us/learn/modules/get-started-with-powerapps/)
   - 🎥 LinkedIn Learning
-    -  [Microsoft PowerApps Essential Training: The Basics](https://www.linkedin.com/learning/microsoft-powerapps-essential-training-the-basics/)
+    - [Microsoft PowerApps Essential Training: The Basics](https://www.linkedin.com/learning/microsoft-powerapps-essential-training-the-basics/)
+  - 💬 CPS Yammer Group
+    - [Power Apps/Power Automate](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMjc5MjYyNSJ9/all)
 
 ## Markdown
 
@@ -69,4 +78,4 @@ Markdown is a lightweight markup language that you can use to add formatting ele
     - [Getting Started](https://www.markdownguide.org/getting-started/)
     - [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
   - 🎥 LinkedIn Learning
-    -  [Learning Markdown](https://www.linkedin.com/learning/learning-markdown/)
+    - [Learning Markdown](https://www.linkedin.com/learning/learning-markdown/)
