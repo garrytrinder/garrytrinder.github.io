@@ -284,3 +284,6 @@
 
 - jq
   - brew install jq
+
+- Firefox
+  - brew install firefox
