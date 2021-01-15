@@ -287,3 +287,6 @@
 
 - Firefox
   - brew install firefox
+
+- Insomnia
+  - brew install --cask insomnia
