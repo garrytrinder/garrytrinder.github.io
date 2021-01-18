@@ -290,3 +290,9 @@
 
 - Insomnia
   - brew install --cask insomnia
+
+- Azure CLI
+  - brew install azure-cli
+
+- Google Chrome
+  - brew install --cask google-chrome
