@@ -296,3 +296,6 @@
 
 - Google Chrome
   - brew install --cask google-chrome
+
+- ngrok
+  - brew install --cask ngrok
