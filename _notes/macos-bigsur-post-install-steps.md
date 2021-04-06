@@ -299,3 +299,24 @@
 
 - ngrok
   - brew install --cask ngrok
+
+- OBS
+  - brew install --cask obs
+
+- Balsamiq
+  - brew install --cask balsamiq-wireframes
+
+- zoom
+  - brew install --cask zoom
+
+- moom
+  - brew install --cask moom
+
+- GoToMeeting
+  - brew install --cask gotomeeting
+
+- Xmind
+  - brew install --cask xmind
+
+- Unetbootin
+  - brew install --cask unetbootin
