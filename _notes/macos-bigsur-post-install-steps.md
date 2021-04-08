@@ -294,6 +294,9 @@
 - Azure CLI
   - brew install azure-cli
 
+- Azure DevOps CLI
+  - az extension add --name azure-devops  
+
 - Google Chrome
   - brew install --cask google-chrome
 
