@@ -323,3 +323,6 @@
 
 - Unetbootin
   - brew install --cask unetbootin
+
+- cool-retro-term
+  - brew cask install cool-retro-term
