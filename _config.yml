@@ -6,7 +6,7 @@ relative_permalinks: false
 
 # Setup
 title: Garry Trinder
-tagline: Microsoft Office Development MVP
+tagline: Modern Workplace Consultant
 description: 
 url: https://garrytrinder.github.io
 baseurl: ""
@@ -21,7 +21,6 @@ author:
   twitter: https://twitter.com/garrytrinder
   github: https://github.com/garrytrinder
   linkedin: https://www.linkedin.com/in/gtrinder
-  mvp: https://mvp.microsoft.com/en-us/PublicProfile/5003609
 
 # Twitter
 twitter:
