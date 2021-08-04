@@ -24,31 +24,10 @@ span.sidebar-nav-item.sidebar-social {
   margin-right: 0;
 }
 
-@font-face{
-  font-family: 'JetBrains Mono';
-  src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
-       url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-size: 13px;
-  line-height: 1.2;
-} 
-
-*, h1, h2, h3, h4, h5, h6 {
-  -webkit-font-feature-settings: "liga" on, "calt" on;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  font-family: 'JetBrains Mono';
-}
-
-code, pre {
-  font-family: 'JetBrains Mono';
-}
-
 video {
-  width: 100%    !important;
-  height: auto   !important;
-} 
+  width: 100% !important;
+  height: auto !important;
+}
 
 .post {
   margin-bottom: 2em;
